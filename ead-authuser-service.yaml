@@ -2,6 +2,7 @@ server:
   port: 8087
   servlet:
     context-path: '/ead-authuser/'
+    
 
 spring:
   application:
@@ -39,6 +40,18 @@ ead:
   broker:
     exchange:
       userEvent: ead.userevent
+
+authuser:
+  refreshscope:
+    name: Lucas Mudo
+
+management:
+  endpoints:
+    web: 
+      exposure:
+        include:
+          - refresh
+          - health 
 
 resilience4j:
   circuitbreaker:
