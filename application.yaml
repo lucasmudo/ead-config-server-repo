@@ -3,8 +3,8 @@ ead:
     username: serviceregistry
     password: 'ead123sr'
   auth:
-    jwtsecret: B0DwmTMvzCUPccuIGjM/BjYi3RRLsy/XwAfey2rJRnX/WmG3heATXgvGES/dAxyBByBYwHvhs2EmZa/TpxIE=Wdk7fTK2eU-Cu/BFiH?8/O0VR-SyFyYtjD2RCCjer08
-    jwtexpirationMs: 14400000
+    jwtSecret: B0DwmTMvzCUPccuIGjM/BjYi3RRLsy/XwAfey2rJRnX/WmG3heATXgvGES/dAxyBByBYwHvhs2EmZa/TpxIE=Wdk7fTK2eU-Cu/BFiH?8/O0VR-SyFyYtjD2RCCjer08
+    jwtExpirationMs: 14400000
 
 
 eureka:
