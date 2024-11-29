@@ -3,7 +3,7 @@ ead:
     username: serviceregistry
     password: 'ead123sr'
   auth:
-    jwtSecret: B0DwmTMvzCUPccuIGjM/BjYi3RRLsy/XwAfey2rJRnX/WmG3heATXgvGES/dAxyBByBYwHvhs2EmZa/TpxIE=Wdk7fTK2eU-Cu/BFiH?8/O0VR-SyFyYtjD2RCCjer08
+    jwtSecret: base64:QjBEd21UTXZ6Q1VQY2N1SUdqTS9CallpM1JSTHN5L1h3QWZleTJySlJuWC9XbUczaGVBVFhndkdFUy9kQXh5QkJ5Qll3SHZoczJFbVphL1RweElFPVdkazdmVEsyZVUtQ3UvQkZpSD84L08wVlItU3lGeVl0akQyUkNDamVyMDg=
     jwtExpirationMs: 14400000
 
 
