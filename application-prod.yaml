@@ -1,0 +1,16 @@
+ead:
+  serviceRegistry:
+    username: serviceregistryprod
+    password: '{cipher}f18ea2c72a243fdb82fdd082e1b6a9083695df45ddcb893083c86540348eba8e'
+  auth:
+    jwtSecret: '{cipher}9eeff76002273b0e33e11b5bc731574a14782917552a18e4a046e79eb7934b3327aace8472f61a25d42159bb56e7a687315dff9fd0d34f4b025c4493fa87b8d465335f2115b8398cbff4353ad549b79d49d4f4ee33fc7ed8e6bfcce22e859fef'
+    jwtExpirationMs: 14400000
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: 'http://${ead.serviceRegistry.username}:${ead.serviceRegistry.password}@mudo-ead-serviceregistry-prod-fea6773cd0d5.herokuapp.com/eureka'
+  instance:
+    hostname: ${APP_DOMAIN_NAME}
+    non-secure-port: 80
